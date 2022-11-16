@@ -1,0 +1,38 @@
+{
+    "URL": "https://opensource-demo.orangehrmlive.com/",
+    "Login": [
+        {
+            "uname": "Admin",
+            "password": "admin123",
+            "adduser": {
+                "ename": "Fiona Grace",
+                "uname": "Sundar",
+                "password": "admin123",
+                "cpassword": "admin123"
+                }
+        },
+
+        {
+            "uname": "Admin",
+            "password": "admin123",
+            "adduser": {
+                "ename": "Fiona Grace",
+                "uname": "Upasana",
+                "password": "admin123",
+                "cpassword": "admin123"
+                }
+        },
+        {
+            "uname": "Admin",
+            "password": "admin123",
+            "adduser": {
+                "ename": "Fiona Grace",
+                "uname": "Vidya",
+                "password": "admin123",
+                "cpassword": "admin123"
+                }
+        }
+
+            ]
+
+}

@@ -1,0 +1,28 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "New Cypress Version Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "RunTest": "npm run test --",
+    "Cypress_UI_Demo": "npm run test -- --spec \"cypress/e2e/UI_Test/**/*.js\"",
+    "Cypress_UI_Single": "npm run test -- --spec \"cypress/e2e/UI_Test/OrangeHRM_Login_FirstTest.cy.js\""
+  },
+  "author": "Abhi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-localstorage-commands": "^2.2.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "cypress-axe": "^1.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

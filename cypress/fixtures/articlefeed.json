@@ -1,0 +1,23 @@
+{
+    "articles":[
+       {
+          "title":"Hello Abhi",
+          "body":"Testing Cypress",
+          "createdAt":"2020-09-26T03:18:26.635Z",
+          "updatedAt":"2020-09-26T03:18:26.635Z",
+          "tagList":[
+            
+          ],
+          "description":"This is a Cypress Training",
+          "author":{
+             "username":"abhikdixit",
+             "bio":null,
+             "image":"https://static.productionready.io/images/smiley-cyrus.jpg",
+             "following":false
+          },
+          "favorited":false,
+          "favoritesCount":10
+       }
+    ],
+    "articlesCount":500
+ }
